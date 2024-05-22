@@ -26,7 +26,9 @@ public class PersonController {
         PersonDto dto = personService.createPerson(personDto); // Assuming personService returns PersonDto
         return new ResponseEntity<>(dto, HttpStatus.CREATED);
     }
-
+    public void data (){
+        System.out.println(100);
+    }
 
     // You can define other CRUD operations endpoints here (GET, PUT, DELETE, etc.)
 }
