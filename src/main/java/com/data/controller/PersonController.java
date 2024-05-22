@@ -28,6 +28,8 @@ public class PersonController {
     }
     public void data (){
         System.out.println(100);
+         System.out.println(200);
+        
     }
 
     // You can define other CRUD operations endpoints here (GET, PUT, DELETE, etc.)
