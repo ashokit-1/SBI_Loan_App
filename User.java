@@ -1,0 +1,1 @@
+String text = "this work after stash";
