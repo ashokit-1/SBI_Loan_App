@@ -25,6 +25,10 @@ public class PersonController {
     public ResponseEntity<PersonDto> createPerson(@RequestBody PersonDto personDto) {
         PersonDto dto = personService.createPerson(personDto); // Assuming personService returns PersonDto
         return new ResponseEntity<>(dto, HttpStatus.CREATED);
+
+        //but-130
+        int i =10;
+
     }
     public void data (){
         
