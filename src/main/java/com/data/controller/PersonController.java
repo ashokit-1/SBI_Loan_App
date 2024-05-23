@@ -28,10 +28,7 @@ public class PersonController {
     }
     public void data (){
         
-        int x = 500;
-        System.out.println(x);
-        String name = "Akash coding";
-        System.out.println(name);
+       //removed all 11:32
         
     }
 
