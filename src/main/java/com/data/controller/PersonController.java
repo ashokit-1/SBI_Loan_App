@@ -29,6 +29,8 @@ public class PersonController {
     public void data (){
         System.out.println(100);
          System.out.println(200);
+        int x = 125;
+        System.out.println(x);
         
     }
 
