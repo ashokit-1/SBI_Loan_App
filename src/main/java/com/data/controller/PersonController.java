@@ -30,6 +30,8 @@ public class PersonController {
         
         int x = 500;
         System.out.println(x);
+        String name = "Akash coding";
+        System.out.println(name);
         
     }
 
